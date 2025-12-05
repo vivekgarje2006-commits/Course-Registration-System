@@ -1,20 +1,4 @@
-/* course_system.c
-   Simple Course Registration System in C
-   - Role selection: Student | Faculty | Administrative
-   - Student menu:
-       1. Check Available Courses
-       2. Opt For A Course
-       3. View Students opted for course (aggregated)
-       4. Opt out from a course
-       5. Exit (to role menu)
-   - Faculty:
-       - select course, select student by roll -> update/add attendance per sem and add/update grades per sem
-   - Administrative:
-       - Add new course
-   Data stored in text files:
-     courses.txt, registrations.csv, attendance.csv, grades.csv
-   Keep this simple for first-year project.
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
